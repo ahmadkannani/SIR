@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-input {
+    width: 60%;
+}
+
+.btn1 {
+    padding: 0px 10px;
+}
+
+.select-option {
+    height: 26px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-top: 25px;
+}
+
+.table {
+    width: 48%;
+    position: absolute;
+    float: left;
+    border: black;
+}
+
+.resulte {
+    width: 45%;
+    position: absolute;
+    float: right;
+    margin-top: 50px;
+}
+
+.btn2 {
+    position: absolute;
+    float: right;
+    padding: 0px 10px;
+}

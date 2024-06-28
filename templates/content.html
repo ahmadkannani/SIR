@@ -1,0 +1,38 @@
+{% load static %}
+{% csrf_token %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME WORK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+<body>
+    <div class="container" id="container" name="container">
+        <div class="row">
+            <h2>وظيفة استرجاع المعلومات </h2>
+            <!-- Update your form to use POST method -->
+        </div>
+        <div class="row">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">show doc</label>
+               
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">{{pk}}</label>
+                <textarea class="form-control"    name="resulte"  id="exampleFormControlTextarea1" cols="30" rows="15">{{ CONT | safe }}</textarea>
+              </div>  
+           
+              
+        </div>
+    </div>
+       
+           
+        <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
